@@ -1,0 +1,338 @@
+/*
+Colors: 
+#E54E79;
+#E56385;
+#00B2A9;
+#75726C;
+#EDE9E2
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+/* MENU - dimensiones */
+.menu-fijo {
+    background: #E54E79;
+    height: 70px;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+}   
+
+/* MENU - logo */
+#logo-header {
+    float: left;
+    padding: 12px;
+    margin-left: 50px;
+}
+
+#logo-header img {
+	width: 60px;
+	margin-left: 120px;
+
+}
+
+/* MENU - secciones del sitio*/
+
+nav {
+    float: right;
+
+}
+    nav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        padding-right: 170px;
+        text-align: right;
+
+        
+    }
+    
+        nav ul li {
+            display: inline-block;
+            line-height: 70px;
+             
+        }
+            
+            nav ul li a {
+                display: block;
+                padding: 0 10px;
+                text-decoration: none;
+                color: white;
+            }
+            
+                nav ul li a:hover {
+                    background: #ce4e79;
+                }
+/* MENU - retoques */
+
+.menu-fijo{
+	z-index: 1;
+}
+
+/* IMAGEN PRINCIPAL - parallax */
+.contenedor-parallax{
+	position: relative;
+    max-width: 100%;
+    top: 0px;
+    height: 650px;
+    background-image: url(../img/cropped-Lyft-Promo-Codes-car-1.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* FORMULARIO - sign up telefono - cuadro pegado imagen */
+.signUp{
+	background-color: #EDE9E2;
+	padding: 50px;
+	position: absolute;
+	right: 0;
+	top: 170px;
+	max-width: 100%;
+	width: 380px;
+    height: 270px;
+}
+
+/* FORMULARIO - sign up telefono - input */
+#number-phone {
+    border: none;
+    border-bottom: 1px solid #75726C;
+    background: transparent;
+    width: 350px;
+    padding: 0 0 15px 0;
+    margin: 30px auto;
+    display: inline-block;
+    text-align: left;
+}
+
+/* FORMULARIO - sign up telefono - boton */
+.btn-signUp{
+	background-color: #E56385;
+	padding: 15px 20px 15px 20px;
+	border: none;
+	border-radius: 14px;
+	color: white;
+}
+
+/* FORMULARIO - sign up telefono - INFO */
+h1 {
+	color: #00B2A9;
+}
+
+.signUp p{
+	color: #75726C;
+	font-size: 15px;
+}
+
+p{
+	color: #75726C;
+	font-size: 14px;
+}
+
+.signUp button i {
+	font-size: 15px;
+}
+
+/* JUEGO - fondo */
+.play-with-lyft{
+	position: absolute;
+	height: 720px;
+	background-color: #00B2A9;
+	width: 100%;
+	padding: 30px 0 30px 0;
+	top: 650px;
+	display: block;
+}
+
+/* JUEGO - titulo*/
+
+.tit-play{
+	background-color: whitesmoke;
+	color: #75726C;
+	margin: 0;
+	margin-top: 25px;
+	padding: 15px 0 15px 0;
+	text-align: center;
+	font-size: 50px;
+}
+
+/* JUEGO - espacio gris input*/
+.input-coordenadas{
+	position: relative;
+	width: 800px;
+	height: 200px;
+	background-color: #EDE9E2;
+	top: 60px;
+	left: 180px;
+	padding: 40px;
+	display: block;
+
+}
+
+/* JUEGO - INPUT COORDENADAS */
+#x-coordenate, #y-coordenate {
+	border: none;
+    border-bottom: 1px solid #75726C;
+    width: 250px;
+    display: inline-block;
+    background: transparent;
+    position: absolute;
+    left: 90px;
+    margin: 40px 20px 40px 20px;
+    height: 40px;
+    display: block;
+}
+
+/* FOOTER - chico */
+.x-coo i{
+	position: absolute;
+	top: 85px;
+	left: 90px;
+	font-size: 30px;
+	color: #75726C;
+}
+
+.y-coo i{
+	position: absolute;
+	top: 85px;
+	left: 480px;
+	font-size: 30px;
+	color: #75726C;
+}
+
+#x-coordenate {
+    left: 130px;
+    font-size: 20px;
+}
+
+#y-coordenate{
+    left: 520px;
+    font-size: 20px;
+
+}
+
+
+/* JUEGO - BOTON*/
+.btn-start{
+	background-color: #00B2A9;
+	padding: 15px 20px 15px 20px;
+	border: none;
+	border-radius: 14px;
+	color: white;
+	width: 720px;
+	position: relative;
+	left: 40px;
+	top: 150px;
+	display: block;
+}
+
+/* JUEGO - ESPACIO DONDE JUGAR*/
+
+.matriz{
+	position: absolute;
+	width: 700px;
+	height: 420px;
+	background-color: #75726C;
+	top: 225px;
+	left: 230px;
+	padding: 40px;
+	display: none;
+}
+
+.footer-completo{
+	z-index: 1
+}
+/* FOOTER - grande*/
+.fondo-footer-gr{
+	position: absolute;
+	width: 100%;
+	top: 1230px;
+	height: 200px;
+	background-color: #75726C;
+}
+
+.footer-info{
+	position: relative;
+	width: 550px;
+	height: 150px;
+	left: 180px;
+	top: 35px;
+
+}
+
+.sprint-3, .links{
+	font-size: 22px;
+	color: whitesmoke;
+}
+.sprint-subtit{
+	font-size: 15px;
+	color: whitesmoke;
+}
+
+/* FOOTER - chico */
+.footer-link{
+	position: absolute;
+	width: 200px;
+	height: 130px;
+	left: 750px;
+	top: 35px;
+	list-style: none;
+}
+
+.footer-link ul li {
+	padding: 2px;
+}
+
+.footer-link ul li a {
+	color: whitesmoke;
+	font-size: 15px;
+    color: white;
+}
+	
+.footer-chico{
+	position: absolute;
+	width: 100%;
+	top: 1410px;
+	height: 40px;
+	background-color: #726f69;
+	color: whitesmoke;
+}
+
+.lift-2017{
+	position: absolute;
+	margin-left: 180px;
+	top: 5px;
+}
+
+.more-links{
+	position: absolute;
+	margin-left: 970px;
+	top: 5px;
+}
+ 
+.dibujo {
+	position: absolute;
+	top: 300px;
+	width: 760px;
+	height: 432px;
+	top: 240px;
+	left: 200px;
+	padding: 40px;
+	display: none;
+}
+
+/**/
+#auto{
+        margin:200px;        
+        width:30px;
+        height:30px;
+        position: absolute;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Lyft</title>
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+	<!--ICONOS-->
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<!--CSS-->
+	<link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+	<!--MENU-->
+	<header id="menu">
+		<nav>
+			<div class="menu-fijo">
+			<!-- / #logo-header -->
+				<a id="logo-header" href="#">
+					<img src="assets/img/logo-white.png">
+				</a> 
+					<ul>
+						<li><a href="#">Drive</a></li>
+						<li><a href="#">Explore</a></li>
+						<li><a href="#">Help</a></li>
+					</ul>
+			</div>
+		</nav>
+	</header>
+
+	<!--PARALLAX-->
+	<section>
+		<div class="contenedor-parallax">
+			<div class="foto"></div>
+			<div class="signUp">
+				<form>
+					<h1 class="tit-signUp">TURN MILES INTO MONEY</h1><br>
+					<p>SIGN UP TO DRIVE LYFT</p>
+					<label for="number-phone"></label>
+					<input type="text" name="number" id="number-phone" placeholder="Phone Number">	
+					<button type="button" id ="btnFono"class="btn-signUp">BECOME A DRIVE <i class="fa fa-heart" aria-hidden="true"></i></button>
+					<br><br>
+					<p>Already applied? Check the status of your application here.</p><br>
+					<p>Earn money for inviting friends to drive. Learn more.</p><br>
+				</form>
+			</div>
+		</div>
+	</section>
+	
+	<!--JUEGO-->
+	<section>
+		<div class="play-with-lyft" id="cajaCalipso">
+			<h2 class="tit-play">PLAY WITH LYFT</h2>
+			<div class="input-coordenadas" id="cajaGame">
+				<!--input coordenadas x-->
+				<div class="x-coo">
+					<i class="fa fa-car" id="icon_auto"aria-hidden="true"></i>
+					<label for="x-coordenate"></label>
+					<input type="text" id="x-coordenate" placeholder="X coordenate">
+				</div>
+				<!--input coordenadas x-->
+				<div class="y-coo">
+					<i class="fa fa-car" id="icon_auto"aria-hidden="true"></i>
+					<label for="y-coordenate"></label>
+					<input type="text" id="y-coordenate" placeholder="Y coordenate">
+				</div>
+				<!--boton start-->
+				<button class="btn-start" id="btn-start">START</button>
+				
+			</div>
+			<!--FUNCIONAMIENTO JUEGO-->		
+			<article>
+				<div class="matriz" id="matriz">
+					<div class="auto" id="auto"><img src="assets/img/car.png" width="70" height="70"></div>
+				</div>
+
+				<!--<canvas width="700" height="420" id="dibujo"></canvas>-->	
+			</article>
+
+		</div>
+	</section>
+
+	<!--FOOTER-->
+	<section class="footer-completo">
+		<div class="fondo-footer-gr" id="footerGrande">
+			<div class="footer-info">
+				<p class="sprint-3">Sprint 3 Proyect</p><br>
+				<p class="sprint-subtit">Hecho por: <br>Paulina Gonzalez C.</p>
+			</div>
+			<div class="footer-link">
+				<h5 class="links">Redes Sociales</h5><br>
+				<ul>
+					<li><a class="lk1" href="https://www.facebook.com/lyft/"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i> Facebook</a>
+					<li><a class="lk2" href="https://twitter.com/lyft"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i> Twitter</a>
+					<li><a class="lk3" href="https://www.instagram.com/lyft/"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i> Instagram</a></li>
+					<li><a class="lk4" href="https://www.youtube.com/lyft/"><i class="fa fa-youtube fa-lg" aria-hidden="true"></i> Youtube</a>
+				</ul>
+			</div>
+		</div>
+		<!--footer menor al final -->
+		<div class="footer-chico" id="footerChico">
+			<div class="lift-2017">© 2017 Lyft - Laboratoria Inc.</div>
+			<div class="more-links" href="#!">More Links</div> 
+			
+		</div>
+	</section>
+
+	<script src="assets/js/main.js"></script>
+</body>
+</html>
